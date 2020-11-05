@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  font-weight: bold;
+  color: #00CED1;
+}
+
+header{
+  background-color: #F5F5F5;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float : right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+ul li{
+  display: inline-block;
+  }
+
+ul li a{
+  text-decoration: none;
+  color: #00CED1;
+  font-size: 23px;
+  padding: 5px 20px;
+  border: 3px solid  #00CED1 transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color:  #00CED1;
+  color:#F8F8FF;
+}
+
+ul li.active a{
+  background-color: #00CED1;
+  color: #F8F8FF;
+}
+
+h1 {
+   font-family: Arial Black;
+  font-weight: bold;
+  color:  #DB7093;
+  font-size: 50px;
+  position: absolute;
+  top: 19%;
+  left: 7%;
+}
+
+h2{
+   font-family: Brush Script MT;
+  font-weight: bold;
+  color:  #DB7093;
+  font-size: 39px;
+  position: absolute;
+  top: 26%;
+  left: 43%;
+}
+
+.footer{
+  background-color: #00CED1;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: #F8F8FF;
+  height: 8vh;
+}
+
+tr:nth-child(even) {
+	background-color: #E6E6FA;
+}
+
+form{
+   position: absolute;
+  top: 50%;
+  left:8%;
+  right: 8%;
+}
+input[type=text], input[type=file], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-color: #F8F8FF;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color:   #DB7093;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=submit]:hover{
+   background-color: #00CED1; 
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.bayar{
+  position: absolute;
+  top: 35%;
+  left: 7%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  background-color:   #DB7093;
+  height: 11vh;
+  width: 45vh;
+}

@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  font-weight: bold;
+  color: #00CED1;
+}
+
+header{
+  background-color: #F5F5F5;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+ul{
+  float : right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+ul li{
+  display: inline-block;
+  }
+
+ul li a{
+  text-decoration: none;
+  color: #00CED1;
+  font-size: 23px;
+  padding: 5px 20px;
+  border: 3px solid  #00CED1 transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color:  #00CED1;
+  color:#F8F8FF;
+}
+
+ul li.active a{
+  background-color: #00CED1;
+  color: #F8F8FF;
+}
+
+h1 {
+   font-family: Arial Black;
+  font-weight: bold;
+  color: #00CED1;
+  font-size: 50px;
+  position: absolute;
+  top: 19%;
+  left: 7%;
+}
+
+.footer{
+  background-color: #00CED1;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: #F8F8FF;
+  height: 8vh;
+}
+
+h4{
+  position: absolute;
+  left: 8%;
+  top: 32%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial Black;
+  color:  #2E8B57;
+}
+
+h5{
+  position: absolute;
+  left: 30%;
+  top: 32%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial Black;
+  color:  #2E8B57;
+}
+h6{
+  position: absolute;
+  left: 52%;
+  top: 32%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial Black;
+  color:  #2E8B57;
+}
+.pr1{
+  position: absolute;
+  left: 8%;
+  top: 39%;
+  color:  #DB7093;
+}
+.pr2{
+  position: absolute;
+  left: 30%;
+  top: 39%;
+  font-size: 15;
+   color:  #DB7093;
+}
+.pr3{
+  position: absolute;
+  left: 52%;
+  top: 39%;
+  font-size: 15;
+   color:  #DB7093;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #00CED1;
+	position: absolute;
+  right: 8%;
+  left: 8%;
+  top: 55%;
+}
+
+th{
+	text-align: left;
+	padding: 16px;
+	font-size: 20;
+}
+	td {
+	text-align: left;
+	padding: 16px;
+	font-size: 15;
+}
+
+tr:nth-child(even) {
+	background-color: #E6E6FA;
+}
+
+  button, .button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
+  transition: background-color 300ms ease-out; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #007095; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    color: white; }
+  button.secondary, .button.secondary {
+    background-color: #e7e7e7;
+    border-color: #b9b9b9;
+    color: #333333; }
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+      background-color: #b9b9b9; }
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+      color: #333333; }
+  button.success, .button.success {
+    background-color:  #3CB371;
+     font-weight: bold;
+    font-family: Century Gothic;
+    color: white; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      background-color: #00CED1; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      color: white; }
+  button.alert, .button.alert {
+    background-color: #F08080;
+    font-weight: bold;
+    font-family: Century Gothic;
+    color: white; }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+      background-color: #00CED1; }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+      color: white; }
+
+.bayar{
+  position: absolute;
+  top: 83%;
+  left: 8%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #00CED1;
+  height: 11vh;
+  width: 60vh;
+}
